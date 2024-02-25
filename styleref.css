@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d96c6c;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+.navbar {
+display: flex;
+margin-right: 10%;
+}
+
+.logo {
+margin-left: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.logo a {
+    text-decoration: none;
+    color: #d91a1a;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a {
+display: block;
+padding: 10px;
+color: #d91a1a;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px;
+}
+.navbar a:hover {
+    background: #d96c6c;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(Images/titleref.jpeg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.title {
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-right: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+p {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.parrafo {
+    padding: 50px;
+    text-align: center;
+    
+
+}
+.contenedorimg{
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    display: flex;
+    
+}
+.imagen{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0px 15px;
+}
+.tarjeta{
+    box-shadow: rgba(0, 0, 0, .35) 0px 5px 15px;
+    border-radius: 5px;
+    margin: 15px 15px 50px 15px;
+    width: max-content;
+    
+}
+.tarjeta h3{
+    color: #ffffff;
+}
